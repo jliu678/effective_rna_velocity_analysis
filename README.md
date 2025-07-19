@@ -32,14 +32,14 @@ The steady‑state model was the first to enable a mathematical estimation of RN
 The steady‑state model’s reliance on true steady states is at odds with [known biophysical behavior](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010492). The dynamic model removes this requirement to broaden RNA velocity’s applicability but inevitably introduces new assumptions that may not hold for every dataset. Effective use of the dynamic model therefore demands a clear understanding of its strengths and limitations. Our blog series toward this goal begins by delving into the mathematical foundations of the dynamic model.
 
 ### Dynamic RNA velocity model-- (2) parameter inference (Blog [Github](11e.velocity_dynamic_model_parameter_inference))
-![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11e.velocity_dynamic_model_inference\featured.png)
+![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11e.velocity_dynamic_model_inference/featured.png)
 
 *Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)*
 
 To effectively apply the dynamic model for revealing RNA velocity in single-cell RNA-seq data, this second installment of our blog series takes a deep dive into its parameter inference using a two-stage EM algorithm. In this approach, latent time is initially assigned using an explicit formula, and then refined through standard optimization during the "Expectation" step of the final EM iteration.
 
-### Dynamic RNA velocity model-- (3) post hoc velocity graph (Blog [Github](11f.velocity_dynamic_model_post_hoc_velocity_graph))
-![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11f.velocity_dynamic_model_post_hoc_velocity_graph/featured.png)
+### Dynamic RNA velocity model-- (3) post hoc velocity graph (Blog [Github](11f.velocity_dynamic_model_posthoc_velocity-graph))
+![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11f.velocity_dynamic_model_posthoc_velocity-graph/featured.png)
 
 *Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)*
 
