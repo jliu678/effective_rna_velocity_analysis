@@ -38,21 +38,37 @@ The steady‑state model was the first to enable a mathematical estimation of RN
 
 The steady‑state model’s reliance on true steady states is at odds with [known biophysical behavior](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010492). The dynamic model removes this requirement to broaden RNA velocity’s applicability but inevitably introduces new assumptions that may not hold for every dataset. Effective use of the dynamic model therefore demands a clear understanding of its strengths and limitations. Our blog series toward this goal begins by delving into the mathematical foundations of the dynamic model.
 
-### Dynamic RNA velocity model-- (2) parameter inference (Blog [Github](11e.velocity_dynamic_model_parameter_inference))
+<br>
+
+### 4. Dynamic RNA velocity model-- (2) parameter inference (Blog [Github](11e.velocity_dynamic_model_parameter_inference))
 ![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11e.velocity_dynamic_model_inference/featured.png)
 
 *Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)*
 
 To effectively apply the dynamic model for revealing RNA velocity in single-cell RNA-seq data, this second installment of our blog series takes a deep dive into its parameter inference using a two-stage EM algorithm. In this approach, latent time is initially assigned using an explicit formula, and then refined through standard optimization during the "Expectation" step of the final EM iteration.
 
-### Dynamic RNA velocity model-- (3) post hoc velocity graph (Blog [Github](11f.velocity_dynamic_model_posthoc_velocity-graph))
+<br>
+
+
+### 5. Dynamic RNA velocity model-- (3) post hoc velocity graph (Blog [Github](11f.velocity_dynamic_model_posthoc_velocity-graph))
 ![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11f.velocity_dynamic_model_posthoc_velocity-graph/featured.png)
 
 *Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)*
 
-In this third blog on effectively applying the dynamic model of RNA velocity, we look into post hoc computed cosine similarity and the exponential kernel that shape the RNA velocity graph and embedding. This begins our deep dive into scVelo’s post hoc computations that determine visualization and interpretation.
+In this third installment of our blog series on effectively applying the dynamic model to infer RNA velocity from single-cell RNA-seq, we start our deep dive into the post hoc computations in scVelo that shape both the visualization and interpretation of RNA velocity.
 
-### Dynamic RNA velocity model-- (4) latent time (Blog [Github](11f1.velocity_dynamic_model_posthoc_latent-time))
+Here specifically looks into the two key components that are computed post hoc in scVelo to derive the velocity graph:
+- cosine similarity in section A)
+- exponential kernel transformation in section B)
+
+And how velocity graph are projected onto an embedding, such as UMAP or t-SNE, which is the common way to visualize the inferred RNA velocity in section C)
+
+Finally, the reconstructability score {{< math >}} $r$ {{< /math >}} in section D), which quantifies how well a subset of genes can recapitulate the overall RNA velocity dynamics inferred from the full set of genes.
+
+<br>
+
+
+### 6. Dynamic RNA velocity model-- (4) latent time (Blog [Github](11f1.velocity_dynamic_model_posthoc_latent-time))
 ![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11f1.velocity_dynamic_model_posthoc_latent-time/featured.png)
 
 *Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)*
