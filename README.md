@@ -12,18 +12,18 @@ In addition to the main content listed below, the repository includes supplement
 
 💡 **Tip: Click on 🧭Intro for a quick overview, 📝Blog for an intuitive walkthrough, or 🐙Git for code and math details.**
 
-| # | Title | 🧭 Intro | 📝 Blog | 🐙 GitHub |
+| # | Title | Intro | Blog | GitHub |
 |--:|-------|:--------:|:--------:|:----------:|
 | 1 | **Math Derivation of CME-defined Stochastic Model of RNA Velocity** | [🧭](#1-math-derivation-of-cme-defined-stochastic-model-of-rna-velocity-blog--git) | [📝](https://myhugoblog) | [🐙](./11a.velocity_unraveled/) |
-| 2 | **Math Derivation for Steady-State RNA Velocity Model** | [🧭](#2-math-derivation-for-steady-state-rna-velocity-model-blog--git) | [📝](https://myhugoblog) | [🐙](./11c.velocity_steady_state/) |
-| 3 | **Dynamic Model — (1) Math Solutions** | [🧭](#3-dynamic-model--1-math-solutions-blog--git) | [📝](https://myhugoblog) | [🐙](./11d.velocity_dynamic_model_derivation/) |
-| 4 | **Dynamic Model — (2) Parameter Inference (EM Algorithm)** | [🧭](#4-dynamic-model--2-parameter-inference-em-algorithm-blog--git) | [📝](https://myhugoblog) | [🐙](./11e.velocity_dynamic_model_inference/) |
-| 5 | **Dynamic Model — (3) Post Hoc Velocity Graph** | [🧭](#5-dynamic-model--3-post-hoc-velocity-graph-blog--git) | [📝](https://myhugoblog) | [🐙](./11f.velocity_dynamic_model_posthoc_velocity-graph/) |
-| 6 | **Dynamic Model — (4) Latent Time** | [🧭](#6-dynamic-model--4-latent-time-blog--git) | [📝](https://myhugoblog) | [🐙](./11f1.velocity_dynamic_model_posthoc_latent-time/) |
-| 7 | **Dynamic Model — (5) Global Time Normalization** | [🧭](#7-dynamic-model--5-global-time-normalization-blog--git) | [📝](https://myhugoblog) | [🐙](./11f2.velocity_dynamic_model_posthoc_global-time/) |
-| 8 | **Dynamic Model — (6) Computational Implementation & Reproducibility** | [🧭](#8-dynamic-model--6-computational-implementation--reproducibility-blog--git) | [📝](https://myhugoblog) | [🐙](./11g.velocity_dynamic_model_implement/) |
-| 9 | **Dynamic Model — (7) Gillespie Stochastic Simulation Algorithm (SSA)** | [🧭](#9-dynamic-model--7-gillespie-stochastic-simulation-algorithm-ssa-blog--git) | [📝](https://myhugoblog) | [🐙](./11h.velocity_gillespie_ssa_dyngen/) |
-| 10 | **Dynamic Model — (8) Effective scVelo Analysis** | [🧭](#10-dynamic-model--8-effective-scvelo-analysis-blog--git) | [📝](https://myhugoblog) | [🐙](./11i.Velocity_pipeline/) |
+| 2 | **Math Derivation for Steady-State RNA Velocity Model** | [🧭](#2-math-derivation-for-steady-state-rna-velocity-mode-blog--git) | [📝](https://myhugoblog) | [🐙](./11c.velocity_steady_state/) |
+| 3 | **Dynamic Model — (1) Math Solutions** | [🧭](#3-dynamic-rna-velocity-model---1-math-solutions-blog--git) | [📝](https://myhugoblog) | [🐙](./11d.velocity_dynamic_model_derivation/) |
+| 4 | **Dynamic Model — (2) Parameter Inference (EM Algorithm)** | [🧭](4-dynamic-rna-velocity-model---2-parameter-inference-blog--git) | [📝](https://myhugoblog) | [🐙](./11e.velocity_dynamic_model_inference/) |
+| 5 | **Dynamic Model — (3) Post Hoc Velocity Graph** | [🧭](#5-dynamic-rna-velocity-model--3-post-hoc-velocity-graph-blog--git) | [📝](https://myhugoblog) | [🐙](./11f.velocity_dynamic_model_posthoc_velocity-graph/) |
+| 6 | **Dynamic Model — (4) Latent Time** | [🧭](#6-dynamic-rna-velocity-model--4-latent-time-blog--git) | [📝](https://myhugoblog) | [🐙](./11f1.velocity_dynamic_model_posthoc_latent-time/) |
+| 7 | **Dynamic Model — (5) Global Time Normalization** | [🧭](#7-dynamic-rna-velocity-model--5-global-time-normalization-blog--git) | [📝](https://myhugoblog) | [🐙](./11f2.velocity_dynamic_model_posthoc_global-time/) |
+| 8 | **Dynamic Model — (6) Computational Implementation & Reproducibility** | [🧭](#8-dynamic-rna-velocity-model--6-computational-implementation--reproducibility-blog--git) | [📝](https://myhugoblog) | [🐙](./11g.velocity_dynamic_model_implement/) |
+| 9 | **Dynamic Model — (7) Gillespie Stochastic Simulation Algorithm (SSA)** | [🧭](#9-dynamic-rna-velocity-model--7-gillespie-stochastic-simulation-algorithm-ssa-blog--git) | [📝](https://myhugoblog) | [🐙](./11h.velocity_gillespie_ssa_dyngen/) |
+| 10 | **Dynamic Model — (8) Effective scVelo Analysis** | [🧭](#10-dynamic-rna-velocity-model--8-effective-scvelo-analysis-blog--git) | [📝](https://myhugoblog) | [🐙](./11i.Velocity_pipeline/) |
 
 
 ## Contents
