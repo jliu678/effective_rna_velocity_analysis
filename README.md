@@ -10,11 +10,11 @@ In addition to the main content listed below, the repository includes supplement
 
 ## Contents
 
-💡 **Tip: Please click [📝BLOG](only-for-demo) in the section titles for intuitive walkthrough of the content in each section's [🐙Github](only-for-demo).**
+💡 **Tip: Please click [📝BLOG](only-for-demo) in the section titles for intuitive walkthrough of the content in each section's [🐙Git](only-for-demo).**
 
 Images below are credited to [**Logan Voss on Unsplash**](https://unsplash.com) unless otherwise noted.
 
-### 1. Math Derivation of CME-defined Stochastic Model of RNA Velocity [📝Blog](https://myhugoblog) | [🐙Github](11a.velocity_unraveled) 
+### 1. Math Derivation of CME-defined Stochastic Model of RNA Velocity [📝Blog](https://myhugoblog) | [🐙Git](11a.velocity_unraveled) 
 
 ![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11a.velocity_unraveled/featured.jpg)
 
@@ -24,7 +24,7 @@ The stochastic model defined by the Chemical Master Equation (CME) outperforms d
 
 <br>
 
-### 2. Math derivation for steady-state RNA velocity mode [📝Blog](https://myhugoblog) | [🐙Github](11c.velocity_steady_state)
+### 2. Math derivation for steady-state RNA velocity mode [📝Blog](https://myhugoblog) | [🐙Git](11c.velocity_steady_state)
 ![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11c.velocity_steady_state/featured.jpg)
 
 The steady‑state model was the first to enable a mathematical estimation of RNA velocity, and most subsequent methods are modified versions of it or its generalization (the dynamic model in `scVelo`; see our other blogs). It has its limitations and a solid understanding of its underlying mathematics is needed to apply the model effectively. Here, we derive the steady-state model in `scVelo` and `velocyto`.
@@ -34,7 +34,7 @@ The steady‑state model was the first to enable a mathematical estimation of RN
 
 
 
-### 3. Dynamic RNA velocity model-- (1) math solutions [📝Blog](https://myhugoblog) | [🐙Github](11d.velocity_dynamic_model_derivation)
+### 3. Dynamic RNA velocity model-- (1) math solutions [📝Blog](https://myhugoblog) | [🐙Git](11d.velocity_dynamic_model_derivation)
 ![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11d.velocity_dynamic_model_derivation/featured.png)
 
 
@@ -43,7 +43,7 @@ The steady‑state model’s reliance on true steady states is at odds with [kno
 
 <br>
 
-### 4. Dynamic RNA velocity model-- (2) parameter inference [📝Blog](https://myhugoblog) | [🐙Github](11e.velocity_dynamic_model_parameter_inference)
+### 4. Dynamic RNA velocity model-- (2) parameter inference [📝Blog](https://myhugoblog) | [🐙Git](11e.velocity_dynamic_model_inference)
 ![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11e.velocity_dynamic_model_inference/featured.png)
 
 
@@ -53,7 +53,7 @@ To effectively apply the dynamic model for revealing RNA velocity in single-cell
 <br>
 
 
-### 5. Dynamic RNA velocity model-- (3) post hoc velocity graph [📝Blog](https://myhugoblog) | [🐙Github](11f.velocity_dynamic_model_posthoc_velocity-graph)
+### 5. Dynamic RNA velocity model-- (3) post hoc velocity graph [📝Blog](https://myhugoblog) | [🐙Git](11f.velocity_dynamic_model_posthoc_velocity-graph)
 ![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11f.velocity_dynamic_model_posthoc_velocity-graph/featured.png)
 
 
@@ -71,7 +71,7 @@ Finally, the reconstructability score {{< math >}} $r$ {{< /math >}} in section 
 <br>
 
 
-### 6. Dynamic RNA velocity model-- (4) latent time [📝Blog](https://myhugoblog) | [🐙Github](11f1.velocity_dynamic_model_posthoc_latent-time)
+### 6. Dynamic RNA velocity model-- (4) latent time [📝Blog](https://myhugoblog) | [🐙Git](11f1.velocity_dynamic_model_posthoc_latent-time)
 ![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11f1.velocity_dynamic_model_posthoc_latent-time/featured.png)
 
 
@@ -89,7 +89,7 @@ Here specifically focuses on:
 <br>
 
 
-### 7. Dynamic RNA velocity model-- (5) Global time normalization [📝Blog](https://myhugoblog) | [🐙Github](11f2.velocity_dynamic_model_posthoc_global-time)
+### 7. Dynamic RNA velocity model-- (5) Global time normalization [📝Blog](https://myhugoblog) | [🐙Git](11f2.velocity_dynamic_model_posthoc_global-time)
 ![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11f2.velocity_dynamic_model_posthoc_global-time/featured.png)
 
 
@@ -101,7 +101,7 @@ However, the method of Global Time Normalization is **not described** in the ori
 <br>
 
 
-### 8. Dynamic RNA velocity model-- (6) Computational handling in implementation [📝Blog](https://myhugoblog) | [🐙Github](11g.velocity_dynamic_model_implement)
+### 8. Dynamic RNA velocity model-- (6) Computational handling in implementation [📝Blog](https://myhugoblog) | [🐙Git](11g.velocity_dynamic_model_implement)
 ![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11g.velocity_dynamic_model_implement/featured.png)
 
 
@@ -119,7 +119,7 @@ Together, the insights presented here not only improve the accuracy of RNA veloc
 <br>
 
 
-### 9. Dynamic RNA velocity model-- (7) Gillespie Stochastic Simulation Algorithm [📝Blog](https://myhugoblog) | [🐙Github](11h.velocity_gillespie_ssa_dyngen)
+### 9. Dynamic RNA velocity model-- (7) Gillespie Stochastic Simulation Algorithm [📝Blog](https://myhugoblog) | [🐙Git](11h.velocity_gillespie_ssa_dyngen)
 ![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11h.velocity_gillespie_ssa_dyngen/featured.png)
 
 
@@ -145,7 +145,7 @@ Specifically, this post illustrates Gillespie’s Stochastic Simulation Algorith
 <br>
 
 
-### 10. Dynamic RNA velocity model-- (8) Effective scVelo analysis [📝Blog](https://myhugoblog) | [🐙Github](11i.Velocity_pipeline)
+### 10. Dynamic RNA velocity model-- (8) Effective scVelo analysis [📝Blog](https://myhugoblog) | [🐙Git](11i.Velocity_pipeline)
 ![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11i.Velocity_pipeline/featured.png)
 
 
@@ -159,4 +159,4 @@ Empowered by the in-depth conceptual and implementation foundations unveiled in 
 - Revealing biologically significant tumor development trajectory by applying the strategies on real-world scRNAseq dataset
 - Providing tools to visualize the results and to generate heatmap that labels genes with known biological significance and highly correlated with latent time
 
-The full code is available in [/scripts](11i.Velocity_pipeline\scripts).
+The full code is available in [/scripts](11i.Velocity_pipeline/scripts).
