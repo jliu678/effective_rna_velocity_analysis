@@ -83,3 +83,77 @@ Here specifically focuses on:
 - Gene and cell dependence of latent time in section C)
 - Neighborhood-convolved latent time in section D)
 
+<br>
+
+
+### 7. Dynamic RNA velocity model-- (5) Global time normalization (Blog [Github](11f2.velocity_dynamic_model_posthoc_global-time))
+![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11f2.velocity_dynamic_model_posthoc_global-time/featured.png)
+
+*Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)*
+
+In scVelo paper, the first step to calculate the Gene-shared latent time, after inferring parameters of kinetic rates, is that gene-specific time points of well-fitted genes (with a likelihood of at least 0.1) are normalized to a common global (overall) time scale. Global time normalization is to address the challenge that different genes may have different intrinsic timescales for their kinetic processes. Without normalization, genes with faster kinetics would dominate the velocity field, while slower genes would contribute less to trajectory inference.
+
+However, the method of Global Time Normalization is **not described** in the original scVelo paper. Its source codes [`latent_time()`](https://github.com/theislab/scvelo/blob/f89590b5912ff3c47c7a486fd02e45589632e766/scvelo/tools/_em_model_core.py#L779) and [`compute_shared_time()`](https://github.com/theislab/scvelo/blob/f89590b5912ff3c47c7a486fd02e45589632e766/scvelo/tools/_em_model_utils.py#L82) shows a multi-step ad-hoc voting method to calculate a global latent time for the cells by considering the fitted latent times from multiple high-likelihood genes. **[Newer papers](https://pmc.ncbi.nlm.nih.gov/articles/PMC9550177/) identify Global Time Normalization as a key weakness** of the original scVelo implementation. Below are the alternative methods to calculate the global time normalization, which I want to try some time later to potentially address the relative scale of different genes and avoid the assumption of equal full cycle time for all genes.
+
+<br>
+
+
+### 8. Dynamic RNA velocity model-- (6) Computational handling in implementation (Blog [Github](11g.velocity_dynamic_model_implement))
+![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11g.velocity_dynamic_model_implement/featured.png)
+
+*Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)*
+
+Although not explicitly stated in the scVelo paper, the dynamic model of RNA velocity relies heavily on the concept of **neighbors**. This is not merely a computational convenience-- it’s a core principle in how scVelo interprets and visualizes RNA velocity data. In this blog, we unveil how scVelo leverages neighborhood information in its computations in section A).
+
+In scVelo, certain functions are stochastic and depend on random seeds, while others are deterministic. Understanding the **seed dependencies** is crucial for reproducibility in RNA velocity analyses.
+Section B) provides a comprehensive overview of which scVelo functions rely on random seeds and which do not, essential to navigate the stochastic nature of scVelo functions for better reproducibility.
+
+The **object structure** of scVelo illustrated in section C) focus on how gene-specific parameters and cell-and-gene-specific data are organized, the key to understanding how scVelo models RNA velocity at gene and cell levels.
+
+Together, the insights presented here not only improve the accuracy of RNA velocity interpretation, but also empower users to identify and thoughtfully fine-tune key (hyper)parameters, enabling a more systematic and biologically meaningful analysis of single-cell datasets.
+
+
+<br>
+
+
+### 9. Dynamic RNA velocity model-- (7) Gillespie Stochastic Simulation Algorithm (Blog [Github](11h.velocity_gillespie_ssa_dyngen))
+![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11h.velocity_gillespie_ssa_dyngen/featured.png)
+
+*Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)*
+
+The dynamic RNA velocity model makes assumptions that are not always satisfied in real-world data, which helps explain why default pipelines often fail to capture true RNA velocity. Our previous six blog posts on effectively applying this model have equipped us to identify and thoughtfully fine-tune key (hyper)parameters and processing steps in scVelo, allowing for more accurate and meaningful analyses.
+
+However, to rigorously validate these adjustments, we need high-quality simulated data with known ground truth. That’s why this seventh blog delves into the Gillespie Stochastic Simulation Algorithm (SSA)-- a Monte Carlo method well suitable to simulate biochemical reaction systems where molecule numbers are low and stochastic effects are significant.
+
+SSA is particularly well-suited for single-cell RNA-seq applications because it:
+- Models intrinsic noise at low molecule counts
+- Reflects realistic cell-to-cell variability
+- Handles complex, nonlinear networks
+- Captures rare, probabilistic events
+- Aligns with the biological reality of gene expression
+
+In the context of RNA velocity, stochastic modeling:
+- Better estimate splicing rates and latent time
+- Model uncertainty in velocity vectors
+- Reflect non-smooth, noisy transitions across cell states
+
+Specifically, this post illustrates Gillespie’s Stochastic Simulation Algorithm (SSA) through mathematical derivation, intuitive explanation, and concrete numerical examples-- providing a solid foundation to grasp the algorithm and use its simulated datasets effectively in RNA velocity analysis.
+
+<br>
+
+
+### 10. Dynamic RNA velocity model-- (8) Effective scVelo analysis (Blog [Github](11i.Velocity_pipeline))
+![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11f4.velocity_dynamic_model_posthoc_gillespie/featured.png)
+
+*Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)*
+
+scVelo, like many other tools, like many other tools, computes mathematical models based on assumptions that are often unmet by real-world single-cell RNA-seq datasets.
+
+Empowered by the in-depth conceptual and implementation foundations unveiled in my earlier blog posts, this post continues to explore effective applications of the dynamic RNA velocity model by:
+
+- Identifying key steps and parameters in scVelo pipeline and math models that are tunable to align with the mathematical foundations of dynamic RNA velocity model and to improve the estimation accuracy
+- Benchmarking strategies using simulated datasets with ground-truth velocities generated through state-of-the-art stochastic simulations
+- Revealing biologically significant tumor development trajectory by applying the strategies on real-world scRNAseq dataset
+- Providing tools to visualize the results and to generate heatmap that labels genes with known biological significance and highly correlated with latent time
+
+The full code is available in [/scripts](11i.Velocity_pipeline\scripts).
