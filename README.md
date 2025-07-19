@@ -10,7 +10,7 @@ In addition to the main content listed below, the repository includes supplement
 
 ## 📚 Table of Contents
 
-💡 Click on 🧭Intro for a quick overview, 📝Blog for an intuitive walkthrough, or 🐙Git for code and math details.
+💡 **Tip: Click on 🧭Intro for a quick overview, 📝Blog for an intuitive walkthrough, or 🐙Git for code and math details.**
 
 | # | Title | 🧭 Intro | 📝 Blog | 🐙 GitHub |
 |--:|-------|:--------:|:--------:|:----------:|
