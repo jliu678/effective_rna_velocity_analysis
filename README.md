@@ -2,9 +2,18 @@
 > 💡 **Tip: [Please find **👉 MY BLOG** for an introduction and complete view of the project behind the code in this repository.](https://myhugoblog)**
 
 ## Introduction
-Main content of this repository is to provide a comprehensive understanding of the mathematics, implementation, and application of RNA velocity analysis. It includes detailed explanations of the mathematical foundations, practical coding examples, and real-world applications in single-cell RNA sequencing data analysis.
+This repository delves into the mathematical models, implementation details , and practical application of RNA velocity analysis to enable effective RNA velocity analysis.
 
-This repository is designed to be a valuable resource for researchers and practitioners in the field of computational biology, particularly those interested in RNA velocity analysis. It aims to bridge the gap between theoretical concepts and practical implementation, making it easier for users to apply RNA velocity analysis in their own research.
+It bridges the gap between theoretical concepts and practical implementation to enable the identification of key processing steps and parameters and the rational tunning to better align with the math assumptions and improve the estimation accuracy of RNA velocity analysis.
+
+By bridging the gap between theoretical foundations and practical implementation, it:
+- highlights key tunable processing steps and parameters
+- enables rational tuning that helps align analyses with underlying mathematical assumptions
+- ultimately improves velocity estimation accuracy.
+
+The strategies stated here:
+- were rigorously benchmarked using simulated datasets with known ground-truth velocities generated via state-of-the-art stochastic simulations
+- successfully uncovered biologically meaningful tumor development trajectories from real-world single-cell RNA-seq data.
 
 In addition to the main content listed below, the repository includes supplementary markdown and script files that delve into even deeper, more technical aspects of RNA velocity analysis. They’re a valuable resource for exploring advanced concepts.
 
@@ -19,16 +28,16 @@ In addition to the main content listed below, the repository includes supplement
 | 3 | **Dynamic Model — (1) Math Solutions** | [🧭](#3-dynamic-rna-velocity-model---1-math-solutions-blog--git) | [📝](https://myhugoblog) | [🐙](./11d.velocity_dynamic_model_derivation/) |
 | 4 | **Dynamic Model — (2) Parameter Inference (EM Algorithm)** | [🧭](#4-dynamic-rna-velocity-model---2-parameter-inference-blog--git) | [📝](https://myhugoblog) | [🐙](./11e.velocity_dynamic_model_inference/) |
 | 5 | **Dynamic Model — (3) Post Hoc Velocity Graph** | [🧭](#5-dynamic-rna-velocity-model---3-post-hoc-velocity-graph-blog--git) | [📝](https://myhugoblog) | [🐙](./11f.velocity_dynamic_model_posthoc_velocity-graph/) |
-| 6 | **Dynamic Model — (4) Latent Time** | [🧭](6-dynamic-rna-velocity-model---4-latent-time-blog--git) | [📝](https://myhugoblog) | [🐙](./11f1.velocity_dynamic_model_posthoc_latent-time/) |
+| 6 | **Dynamic Model — (4) Latent Time** | [🧭](#6-dynamic-rna-velocity-model---4-latent-time-blog--git) | [📝](https://myhugoblog) | [🐙](./11f1.velocity_dynamic_model_posthoc_latent-time/) |
 | 7 | **Dynamic Model — (5) Global Time Normalization** | [🧭](#7-dynamic-rna-velocity-model---5-global-time-normalization-blog--git) | [📝](https://myhugoblog) | [🐙](./11f2.velocity_dynamic_model_posthoc_global-time/) |
-| 8 | **Dynamic Model — (6) Computational Implementation & Reproducibility** | [🧭](#8-dynamic-rna-velocity-model---6-computational-implementation--reproducibility-blog--git) | [📝](https://myhugoblog) | [🐙](./11g.velocity_dynamic_model_implement/) |
-| 9 | **Dynamic Model — (7) Gillespie Stochastic Simulation Algorithm (SSA)** | [🧭](#9-dynamic-rna-velocity-model---7-gillespie-stochastic-simulation-algorithm-ssa-blog--git) | [📝](https://myhugoblog) | [🐙](./11h.velocity_gillespie_ssa_dyngen/) |
+| 8 | **Dynamic Model — (6) Computational Implementation & Reproducibility** | [🧭](#8-dynamic-rna-velocity-model---6-computational-handling-in-implementation-blog--git) | [📝](https://myhugoblog) | [🐙](./11g.velocity_dynamic_model_implement/) |
+| 9 | **Dynamic Model — (7) Gillespie Stochastic Simulation Algorithm (SSA)** | [🧭](#9-dynamic-rna-velocity-model---7-gillespie-stochastic-simulation-algorithm-blog--git) | [📝](https://myhugoblog) | [🐙](./11h.velocity_gillespie_ssa_dyngen/) |
 | 10 | **Dynamic Model — (8) Effective scVelo Analysis** | [🧭](#10-dynamic-rna-velocity-model---8-effective-scvelo-analysis-blog--git) | [📝](https://myhugoblog) | [🐙](./11i.Velocity_pipeline/) |
 
 
 ## Contents
 
-💡 **Tip: Please click [📝BLOG](only-for-demo) in the section titles for intuitive walkthrough of the content in each section's [🐙Git](only-for-demo).**
+💡 **Note: Please click [📝BLOG](only-for-demo) in the section titles for intuitive walkthrough of the content in each section's [🐙Git](only-for-demo).**
 
 Images below are credited to [**Logan Voss on Unsplash**](https://unsplash.com) unless otherwise noted.
 
