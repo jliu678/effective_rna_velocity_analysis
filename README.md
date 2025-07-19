@@ -11,11 +11,11 @@ In addition to the main content listed below, the repository includes supplement
 ## Contents
 Images below are credited to [**Logan Voss on Unsplash**](https://unsplash.com) unless otherwise noted.
 
-### 1. Math Derivation of CME-defined Stochastic Model of RNA Velocity (Blog )
+### 1. Math Derivation of CME-defined Stochastic Model of RNA Velocity
 
 ![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11a.velocity_unraveled/featured.jpg)
 
-> 💡 **Tip**: Please visit [**📝 MY BLOG**](https://myhugoblog) for intuitive walkthrough of the content in the [**🐙 Github folder**](11a.velocity_unraveled).**
+> 💡 **Tip: Please visit [**📝 MY BLOG**](https://myhugoblog) for intuitive walkthrough of the content in the [**🐙 Github folder**](11a.velocity_unraveled).**
 
 The stochastic model defined by the Chemical Master Equation (CME) outperforms deterministic ODE models in capturing the inherent stochasticity of single-cell RNA sequencing (scRNA-seq) data. It is actively developed to provide a more accurate representation of feature counts and their underlying biological processes. And it has also enabled the generation of simulated data to evaluate deterministic ODE models and associated data processing methods commonly used in scRNA-seq analysis. Thus I derive the key equations from the paper [velocity unraveled](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010492), a pivotal paper demonstrating the transformative potential of stochastic approaches. 
 
@@ -24,7 +24,7 @@ The stochastic model defined by the Chemical Master Equation (CME) outperforms d
 ### 2. Math derivation for steady-state RNA velocity mode (Blog [Github folder](11c.velocity_steady_state))
 ![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11c.velocity_steady_state/featured.jpg)
 
-
+> 💡 **Tip: Please visit [📝 MY BLOG](https://myhugoblog) for intuitive walkthrough of the content in the [🐙 Github folder](11a.velocity_unraveled).**
 
 The steady‑state model was the first to enable a mathematical estimation of RNA velocity, and most subsequent methods are modified versions of it or its generalization (the dynamic model in `scVelo`; see our other blogs). It has its limitations and a solid understanding of its underlying mathematics is needed to apply the model effectively. Here, we derive the steady-state model in `scVelo` and `velocyto`.
 
