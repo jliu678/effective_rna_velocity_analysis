@@ -1,0 +1,13 @@
+edge,A,B,C,D,E
+left_sA->left_sB,219,0,0,0,0
+left_sB->left_sBmid,53,0,0,0,0
+left_sBmid->left_sC,0,151,0,0,0
+left_sBmid->left_sD,0,0,146,0,0
+left_sC->left_sEndC,0,0,0,201,0
+left_sD->left_sEndD,0,0,0,0,223
+right_sA->right_sB,231,0,0,0,0
+right_sB->right_sBmid,52,0,0,0,0
+right_sBmid->right_sC,0,140,0,0,0
+right_sBmid->right_sD,0,0,149,0,0
+right_sC->right_sEndC,0,0,0,194,0
+right_sD->right_sEndD,0,0,0,0,241
