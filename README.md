@@ -27,8 +27,11 @@ The stochastic model defined by the Chemical Master Equation (CME) outperforms d
 The steady‑state model was the first to enable a mathematical estimation of RNA velocity, and most subsequent methods are modified versions of it or its generalization (the dynamic model in `scVelo`; see our other blogs). It has its limitations and a solid understanding of its underlying mathematics is needed to apply the model effectively. Here, we derive the steady-state model in `scVelo` and `velocyto`.
 
 
+<br>
 
-### Dynamic RNA velocity model-- (1) math solutions (Blog [Github](11d.velocity_dynamic_model_derivation))
+
+
+### 3. Dynamic RNA velocity model-- (1) math solutions (Blog [Github](11d.velocity_dynamic_model_derivation))
 ![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11d.velocity_dynamic_model_derivation/featured.png)
 
 *Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)*
