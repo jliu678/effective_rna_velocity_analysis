@@ -15,7 +15,7 @@ Images below are credited to [**Logan Voss on Unsplash**](https://unsplash.com) 
 
 ![Image credit: [**Logan Voss on Unsplash**](https://unsplash.com)](11a.velocity_unraveled/featured.jpg)
 
-> 💡 **Tip**: Please visit [**📝 MY BLOG**](https://myhugoblog) for intuitive walkthrough of the content in the [**![alt text](misc/git-icon.png) Github folder**](11a.velocity_unraveled).**
+> 💡 **Tip**: Please visit [**📝 MY BLOG**](https://myhugoblog) for intuitive walkthrough of the content in the [**🐙 Github folder**](11a.velocity_unraveled).**
 
 The stochastic model defined by the Chemical Master Equation (CME) outperforms deterministic ODE models in capturing the inherent stochasticity of single-cell RNA sequencing (scRNA-seq) data. It is actively developed to provide a more accurate representation of feature counts and their underlying biological processes. And it has also enabled the generation of simulated data to evaluate deterministic ODE models and associated data processing methods commonly used in scRNA-seq analysis. Thus I derive the key equations from the paper [velocity unraveled](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010492), a pivotal paper demonstrating the transformative potential of stochastic approaches. 
 
