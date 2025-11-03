@@ -1,10 +1,8 @@
-# 🧬Effective RNA Velocity Analysis: Mathematics, Implementation, and Application
+# 🧬Effective RNA Velocity Analysis: Mathematics, Implementation, Benchmarking, and Discovery of Biologically Meaningful Tumor Development Trajectories from Real-World Single-Cell RNA-Seq Data
 > 💡 **Tip: [Please find **👉 MY BLOG** for an introduction and complete view of the project behind the code in this repository.](https://myhugoblog)**
 
 ## Introduction
-This repository delves into the mathematical models, implementation details , and practical application of RNA velocity analysis to enable effective RNA velocity analysis.
-
-It bridges the gap between theoretical concepts and practical implementation to enable the identification of key processing steps and parameters and the rational tunning to better align with the math assumptions and improve the estimation accuracy of RNA velocity analysis.
+This repository delves into the mathematical models, implementation details , benchmark, and practical application of RNA velocity analysis to enable effective RNA velocity analysis-- enabling the discovery of biologically meaningful tumor development trajectories from real-world single-cell RNA-seq data.
 
 By bridging the gap between theoretical foundations and practical implementation, it:
 - highlights key tunable processing steps and parameters
